@@ -1,6 +1,5 @@
 body {
     font-family: sans-serif;
-    background-color: grey;
     margin-top: 75px;
 }
 
@@ -20,10 +19,12 @@ body {
     height: 200px;
 }
 .container{
-            font-family:verdana;
+            font-family:monospace;
             margin:0 auto;
             color:#5f4c4c;
             background-color:white;
             padding-top:40px;
     }
-
+.background-color{
+    background-color:aquamarine;
+}

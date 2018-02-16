@@ -17,7 +17,7 @@ var articles={
     },
      'article-two':{
         title:'article-two by jyothi',
-        dateAndTime:'16-02-2018 17:33',
+        date:'16-02-2018 17:33',
         heading:'article-two',
         content:`<p>
             this is artical two  paragraph. blah blah blah!!!!

@@ -7,8 +7,8 @@ var bodyParser = require('body-parser');
 var session = require('express-session');
 
 var config = {
-    user: 'coco98',
-    database: 'coco98',
+    user: 'jyothi12396',
+    database: 'jyothi12396',
     host: 'db.imad.hasura-app.io',
     port: '5432',
     password: process.env.DB_PASSWORD
@@ -79,7 +79,7 @@ function createtemplate(data){
                 <h2> ${heading}</h2>
         
             <div>
-            ${date}
+            ${date.toDateString()}
             </div>
                 ${content}
         </div>

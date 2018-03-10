@@ -3,6 +3,8 @@ var morgan = require('morgan');
 var path = require('path');
 var crypto=require('crypto');
 var pool=require('pg').pool;
+var bodyParser = require('body-parser');
+var session = require('express-session');
 
 var app = express();
 app.use(morgan('combined'));

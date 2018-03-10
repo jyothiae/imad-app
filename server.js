@@ -28,10 +28,7 @@ var articles={
         title:'article-one by jyothi',
         date:'feb 2 2018',
         heading:'article-one',
-        content:` <p>
-            this is artical one paragraph.
-            </p> `  
-    
+        content:im
     },
      'article-two':{
         title:'article-two by jyothi',
